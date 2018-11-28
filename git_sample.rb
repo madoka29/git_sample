@@ -19,3 +19,9 @@ users = ["saito", "nomura", "ito"]
 users.each do |user|
   puts user
 end
+
+puts <<-TEXT
+
+gitpush
+
+TEXT
